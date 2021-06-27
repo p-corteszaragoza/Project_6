@@ -1,0 +1,124 @@
+.container-fluid {
+    display: flex;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #1f2833;
+    font-family: sans-serif;
+}
+
+section {
+    flex: 1;
+}
+
+h2 {
+    color: white;
+    display: center;
+    border-bottom: 1px solid #45A29e;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+
+h3 {
+    background: #45A29e;
+    color: white;
+    height:4rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+i {
+    color: #fba100;
+}
+
+#list {
+    margin: 1rem;
+    flex: 4;
+}
+
+#capture-form {
+    flex: 2;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    padding: 0 5rem;
+    border-radius: 1rem;
+    padding: 3rem 3rem;
+}
+
+#iconImportant {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#todoContainer{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex: 3;
+    flex-wrap: wrap;
+}
+.card{
+    margin: .5rem .5rem;
+    padding: 0.2rem;
+}
+.card:hover {
+    background-color: #C9DDEA;
+}
+.control{
+    padding: .2rem;
+}
+.task {
+    display: flex;
+    background: rgb(254, 254, 254, 0.8);
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task .important{
+    flex: 1;
+}
+.task .description {
+    flex: 3;
+}
+.task .due-date {
+    flex: 2;
+}
+
+.task .location {
+    flex: 2;
+}
+.important-container {    
+    border-left: 0.5rem solid rgb(5, 5, 155);
+    text-align: center;
+    color: white;
+    margin: 1rem;
+    background: radial-gradient(black, transparent);
+    padding: 1rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-label {
+    margin-bottom: 0.1rem;
+    color: white;
+}
+
+.form {
+    border-radius: 6px;
+    padding: 30px 65px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    background: radial-gradient(black, transparent);
+}
